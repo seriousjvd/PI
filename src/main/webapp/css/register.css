@@ -1,0 +1,37 @@
+body {
+    background-color: #edece8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    border-color: #fbfbf9;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: min-content;
+}
+
+input {
+    border-radius: 15px;
+    display: block;
+}
+
+button {
+    color: #ffffff;
+    background-color: #f26702;
+    border-color: #f26702;
+    border-radius: 25px;
+}
+
+label {
+    text-align: left;
+    display: block;
+}
+
+div {
+    text-align: center;
+    vertical-align: middle;
+}
