@@ -9,8 +9,8 @@
 <html>
 <head>
     <title>JEATUST</title>
-    <link rel="stylesheet" type="text/css" href="/css/login.css">
     <link rel="stylesheet" type="text/css" href="/css/skin.css">
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
 </head>
 <body>
     <div id="contenedor">

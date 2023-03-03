@@ -1,0 +1,32 @@
+.places_section {
+    padding: 20px;
+}
+
+.secondary_text {
+    padding-left: 0;
+}
+
+.direction_filter_column {
+    float: left;
+    min-width: 20%;
+}
+
+.search_box {
+    text-align: initial;
+    padding-bottom: 20px;
+}
+
+.filter_scroll_menu_item {
+    width: 60%;
+    min-height: 20px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #bbe1fa;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+}
+
+.filter_scroll_menu_item a {
+    padding-left: 20px;
+}
