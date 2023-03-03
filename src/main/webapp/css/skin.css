@@ -1,11 +1,11 @@
 html, body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
     font-family: 'Overpass', sans-serif;
     font-weight: normal;
     font-size: 100%;
     color: #1b262c;
-    width: 100%;
-    height: 100%;
-
     margin: 0;
     background-color: #0f4c75;
 }
@@ -14,13 +14,9 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    margin: 0;
-    padding: 0;
-    min-width: 100vw;
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
-    height: 100%;
+    margin: 0;
 }
 
 #central-small {
@@ -30,8 +26,20 @@ html, body {
 
 #central-big {
     display: flex;
+    justify-content: center;
     width: 90%;
-    height: 90%;
+    min-height: 90%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    background-color: #3282b8;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-sizing: border-box;
 }
 
 .primary_text {
@@ -39,4 +47,76 @@ html, body {
     color:#bbe1fa;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.secondary_text {
+    font-size: 150%;
+    color:#000000;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.horizontal_scroll_menu {
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    max-height: 120px;
+    border: 1px solid #006ab7;
+    margin: 10px 20px;
+}
+
+.horizontal_scroll_menu_item {
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #bbe1fa;
+    margin-right: 2px;
+}
+.vertical_scroll_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical_scroll_menu_item {
+    min-width: 210px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #bbe1fa;
+    margin-bottom: 10px;
+}
+
+.search_input {
+    width: 60%;
+    padding: 12px 24px;
+
+    font-size: 14px;
+    color: #000000;
+    background-image: url("/images/search_icon.png");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    backface-visibility: hidden;
+    transition: all 250ms ease-in-out;
+    transform-style: preserve-3d;
+}
+.search_input:hover, :focus {
+    padding: 12px 12px;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+    background-position: 99% center;
+}
+.search_input::placeholder {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.search_box {
+    width: 100%;
+    text-align:center;
 }
