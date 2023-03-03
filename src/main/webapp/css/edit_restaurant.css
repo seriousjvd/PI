@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    width: 300px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+div {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+label {
+    text-align: left;
+    font-size: 12px;
+}
+
+input, textarea {
+    border-radius: 15px;
+}
+
+button {
+    border-radius: 15px;
+}

@@ -35,6 +35,8 @@
             <i style="font-size: 11px;">Gratis si vences a nuestro cocinero de los jueves jugando a piedra, papel, tijeras, lagarto, Spock</i>
         </p>
     </fieldset>
+
+    <a href="editar_restaurante.html" target="_blank">Edita tu restaurante</a>
 </fieldset>
 
 
