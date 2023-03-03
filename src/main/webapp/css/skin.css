@@ -16,7 +16,6 @@ html, body {
     justify-content: center;
     min-height: 100%;
     width: 100%;
-    margin: 0;
 }
 
 #central-small {
@@ -72,6 +71,7 @@ html, body {
     text-align: center;
     background-color: #bbe1fa;
     margin-right: 2px;
+    padding: 0;
 }
 .vertical_scroll_menu {
     display: flex;
@@ -85,6 +85,7 @@ html, body {
     text-align: center;
     background-color: #bbe1fa;
     margin-bottom: 10px;
+    padding: 0;
 }
 
 .search_input {
@@ -119,4 +120,11 @@ html, body {
 .search_box {
     width: 100%;
     text-align:center;
+}
+
+.login_button img {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 20px;
 }

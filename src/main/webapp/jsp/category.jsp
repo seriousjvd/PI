@@ -16,6 +16,7 @@
     <div id="contenedor">
         <div id="central-big">
             <div id="main">
+                <div class="login_button"><a href="login.jsp"><img src="/images/login_icon.png"></a></div>
                 <div class="horizontal_scroll_menu">
                     <div class="horizontal_scroll_menu_item"><a href="category.jsp">CAT-1</a></div>
                     <div class="horizontal_scroll_menu_item"><a href="category.jsp">CAT-2</a></div>

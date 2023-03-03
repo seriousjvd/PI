@@ -16,6 +16,7 @@
     <div id="contenedor">
         <div id="central-big">
             <div id="main">
+                <div class="login_button"><a href="login.jsp"><img src="/images/login_icon.png"></a></div>
                 <p class="primary_text">
                     Introduce tu dirección y buscaremos restaurantes cerca de ti
                 </p>
