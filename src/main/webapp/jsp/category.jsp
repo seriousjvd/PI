@@ -59,26 +59,6 @@
                             <div class="vertical_scroll_menu_item"><a href="place.jsp">PLACE-5</a></div>
                         </div>
                     </div>
-                    <%--<div class="vertical_scroll_menu">
-                        <div class="vertical_scroll_menu_item">BOX-1</div>
-                        <div class="vertical_scroll_menu_item">BOX-2</div>
-                        <div class="vertical_scroll_menu_item">BOX-3</div>
-                        <div class="vertical_scroll_menu_item">BOX-4</div>
-                        <div class="vertical_scroll_menu_item">BOX-5</div>
-                        <div class="vertical_scroll_menu_item">BOX-6</div>
-                        <div class="vertical_scroll_menu_item">BOX-7</div>
-                        <div class="vertical_scroll_menu_item">BOX-8</div>
-                        <div class="vertical_scroll_menu_item">BOX-9</div>
-                        <div class="vertical_scroll_menu_item">BOX-10</div>
-                        <div class="vertical_scroll_menu_item">BOX-11</div>
-                        <div class="vertical_scroll_menu_item">BOX-12</div>
-                        <div class="vertical_scroll_menu_item">BOX-13</div>
-                        <div class="vertical_scroll_menu_item">BOX-14</div>
-                        <div class="vertical_scroll_menu_item">BOX-15</div>
-                        <div class="vertical_scroll_menu_item">BOX-16</div>
-                        <div class="vertical_scroll_menu_item">BOX-17</div>
-                        <div class="vertical_scroll_menu_item">BOX-18</div>
-                    </div>--%>
                 </div>
             </div>
         </div>
